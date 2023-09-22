@@ -11,7 +11,7 @@ public class Main {
 //                                   "Rua A",
 //                                     "Cidade X",
 //                                    12345678901L,
-//                                       "UPA Central");
+//                                       "UBS Centro");
 //
 //        System.out.println(paciente.getDtNasc());
 
