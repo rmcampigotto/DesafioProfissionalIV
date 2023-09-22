@@ -6,9 +6,9 @@ public class Paciente {
     private String endereco;
     private String cidade;
     private long telefone;
-    private String upa;
+    private String ubs;
 
-    public Paciente(int id, String nome, String dtNasc, String genero, String endereco, String cidade, long telefone, String upa) {
+    public Paciente(int id, String nome, String dtNasc, String genero, String endereco, String cidade, long telefone, String ubs) {
         this.id = id;
         this.nome = nome;
         this.dtNasc = formatarData(dtNasc); // Formata a data ao criar o objeto
@@ -16,7 +16,7 @@ public class Paciente {
         this.endereco = endereco;
         this.cidade = cidade;
         this.telefone = telefone;
-        this.upa = upa;
+        this.ubs = ubs;
     }
 
     public int getId() {
@@ -75,12 +75,12 @@ public class Paciente {
         this.telefone = telefone;
     }
 
-    public String getUpa() {
-        return upa;
+    public String getUbs() {
+        return ubs;
     }
 
     public void setUpa(String upa) {
-        this.upa = upa;
+        this.ubs = ubs;
     }
 
     private String formatarData(String data) {
